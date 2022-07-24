@@ -1,0 +1,115 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    border: 5px ridge white;
+    padding: 10px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    color: rgba(233, 240, 23, 0.881);
+    padding: 5px 15px;
+    margin: 5px 10px;
+    border: 2px solid rgba(233, 240, 23, 0.881);
+}
+
+.menu a:hover {
+    color: rgba(26, 222, 240, 0.819);
+    border: 2px dashed rgba(26, 222, 240, 0.819);
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.images {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.images img {
+    margin: 10px;
+    height: 225px;
+}
+
+
+/* teams page */
+.teams {
+    background-color: rgb(162, 11, 11);
+}
+
+#teams-menu a {
+    color: rgba(23, 207, 240, 0.881);
+    padding: 5px 15px;
+    margin: 5px 10px;
+    border: 2px solid rgba(23, 207, 240, 0.881);
+}
+
+#teams-menu a:hover {
+    color: rgba(51, 240, 26, 0.819);
+    border: 2px dashed rgba(51, 240, 26, 0.819);
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+th, td {
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#headers {
+    border-top: 1px solid white;
+}
+
+.group-header, #col-1 {
+    border-left: 1px solid white;
+}
+
+tr:nth-child(odd) {
+    background-color:rgba(23, 207, 240, 0.881);
+}
+
+
+/* pick 'em page */
+.pickem {
+    background-color: rgba(255, 0, 234, 0.596);
+}
+
+#pickem-menu a {
+    color: blue;
+    padding: 5px 15px;
+    margin: 5px 10px;
+    border: 2px solid blue;
+}
+
+#pickem-menu a:hover {
+    color: rgb(250, 28, 12);
+    border: 2px dashed rgb(250, 28, 12);
+}
+
+.text-input {
+    display: flex;
+    justify-content: center;
+}
+
+/* to center the inputs */
+.radio-inputs {
+    margin: auto;
+    width: 10%;
+}
